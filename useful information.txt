@@ -22,6 +22,7 @@ Colors:
 White
 #333 = blackish
 rgb(50, 104, 145)
+#666
 
 font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 
