@@ -1,4 +1,19 @@
-h1, h2, h3, h4, h5, h6 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-style: italic;
@@ -14,4 +29,64 @@ button {
   border: 0;
   padding: 5px;
   font: bold;
+}
+
+nav div form {
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #333;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.left-nav form {
+  display: none;
+}
+
+#search-button {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.left-nav #search-button:hover + form {
+  display: inline;
+}
+#search-button:hover {
+  display: none;
+}
+
+#menu-button {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+}
+
+nav div .menu-list {
+  display: none;
+}
+
+nav div #menu-button:hover + .menu-list {
+  display: inline;
+}
+
+.menu-list {
+  background-color: white;
+  width: 200px;
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #333;
+  box-shadow: 3px 7px rgba(3, 3, 3, 0.8);
+  z-index: 1;
+}
+
+a h3 {
+  display: inline;
 }
