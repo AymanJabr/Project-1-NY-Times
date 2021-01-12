@@ -295,26 +295,26 @@ a h3 {
 #article-2 p {
   margin-top: 15px;
 }
-#article-2 .signUp-prompt{
+#article-2 .signUp-prompt {
   margin-top: 5px;
   display: grid;
   grid-template-areas: "text text text button";
   grid-template-columns: ;
 }
-#article-2 .signUp-prompt p{
+#article-2 .signUp-prompt p {
   display: inline;
   grid-area: text;
   font-style: italic;
   color: #666;
   font-size: 0.9rem;
 }
-#article-2 .signUp-prompt p span{
+#article-2 .signUp-prompt p span {
   font-style: normal;
   color: #333;
   font-size: 1rem;
   font-weight: 700;
 }
-#article-2 .signUp-prompt button{
+#article-2 .signUp-prompt button {
   display: inline;
   color: black;
   grid-area: button;
@@ -322,4 +322,38 @@ a h3 {
   border: 1.5px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#video-section {
+  margin-top: 50px;
+}
+#video-section p {
+  text-align: left;
+  color: #666;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+#video-section p span {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+#article-3 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+  text-align: left;
+  color: #333;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 22pt;
+}
+#article-3 p {
+  margin-top: 15px;
+}
+#article-3 img {
+  width: 80vw;
+  height: 45vh;
+  object-fit: contain;
+  margin-top: 30px;
 }
