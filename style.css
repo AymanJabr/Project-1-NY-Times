@@ -742,10 +742,10 @@ footer {
   border-left: 1px rgba(0, 0, 0, 0.1) solid;
   padding-left: 5px;
 }
+
 .underline-for-subs {
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
 }
-
 
 .company-info {
   grid-area: info;
