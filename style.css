@@ -72,6 +72,18 @@ nav div form {
   padding-top: 2px;
 }
 
+.buttons-and-logos > button {
+  grid-area: comments;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  height: 40px;
+  font-weight: 500;
+}
+
+.buttons-and-logos div button {
+  padding: 4px;
+}
+
 .article-2 .signUp-prompt button {
   display: inline;
   color: black;
@@ -81,15 +93,6 @@ nav div form {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-.buttons-and-logos > button {
-  grid-area: comments;
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
-  height: 40px;
-  font-weight: 500;
-}
-
 
 .left-nav form button:nth-of-type(1) {
   background-color: white;
@@ -132,9 +135,8 @@ nav div .menu-list {
 }
 
 nav div .menu-button:hover + .menu-list {
-  display: inline; 
+  display: inline;
 }
-
 
 .menu-list ul {
   list-style-type: none;
@@ -384,14 +386,14 @@ aside p {
   padding-left: 0;
 }
 
+.last img {
+  max-width: 100%;
+}
+
 aside .post img {
   object-fit: contain;
   width: 80px;
   height: 80px;
-}
-
-.last img {
-  max-width: 100%;
 }
 
 .img-inflation-section img:nth-of-type(1) {
@@ -473,8 +475,6 @@ aside .post img {
   margin-right: 15vw;
 }
 
-
-
 .article-2 .signUp-prompt {
   margin-top: 5px;
   display: grid;
@@ -495,8 +495,6 @@ aside .post img {
   font-size: 1rem;
   font-weight: 700;
 }
-
-
 
 #video-section {
   margin-top: 50px;
@@ -550,16 +548,10 @@ aside .post img {
   color: #666;
 }
 
-
-
 .buttons-and-logos div {
   grid-area: SMbuttons;
   margin-right: 0;
   margin-left: 0;
-}
-
-.buttons-and-logos div button {
-  padding: 4px;
 }
 
 .buttons-and-logos div button svg {
@@ -577,14 +569,10 @@ aside {
   float: right;
 }
 
-
-
 aside .post {
   display: flex;
   margin-top: 20px;
 }
-
-
 
 aside .post a {
   color: black;
@@ -597,15 +585,12 @@ aside .post a {
 .last {
   height: 100%;
   width: 90vw;
-  max-height: auto;
   display: grid;
   grid-template-columns: 5fr 2fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
   grid-gap: 10px;
 }
-
-
 
 .last .morein {
   grid-area: 1 / 1 / 2 / 2;
@@ -668,8 +653,6 @@ aside .post a {
 .last .editor-pick img {
   max-width: 96%;
 }
-
-
 
 .top-line-for-mp {
   border-top: 1px black solid;
@@ -767,13 +750,9 @@ footer {
   padding-left: 5px;
 }
 
-
-
 .company-info {
   grid-area: info;
   display: flex;
   padding-left: 50px;
   border-top: 1px rgba(0, 0, 0, 0.1) solid;
 }
-
-
