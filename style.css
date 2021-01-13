@@ -63,6 +63,34 @@ nav div form {
   margin-bottom: 20px;
 }
 
+.social-media-buttons button {
+  background-color: #eee;
+  color: #000;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 7px;
+  padding-top: 2px;
+}
+
+.article-2 .signUp-prompt button {
+  display: inline;
+  color: black;
+  grid-area: button;
+  background: white;
+  border: 1.5px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons-and-logos > button {
+  grid-area: comments;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  height: 40px;
+  font-weight: 500;
+}
+
+
 .left-nav form button:nth-of-type(1) {
   background-color: white;
 }
@@ -98,15 +126,54 @@ nav div form {
   box-shadow: 3px 7px rgba(3, 3, 3, 0.8);
   z-index: 2;
 }
-nav div .menu-button:hover + .menu-list {
-  display: inline;
-}
+
 nav div .menu-list {
   display: none;
 }
 
+nav div .menu-button:hover + .menu-list {
+  display: inline; 
+}
+
+
 .menu-list ul {
   list-style-type: none;
+}
+
+.footer1 li {
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
+}
+
+.footer2 li {
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
+}
+
+.footer3 li {
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
+}
+
+.footer4 li {
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
+}
+
+.footer5 li {
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
+}
+
+.footer6 li {
+  padding: 5px 0 5px 0;
+  font-size: 11px;
+  padding-left: 9px;
 }
 
 .menu-list ul li {
@@ -121,6 +188,7 @@ header hr {
   margin-left: 30vw;
   margin-right: 30vw;
 }
+
 .menu-list ul hr {
   margin-left: 15px;
   margin-right: 15px;
@@ -145,18 +213,17 @@ a h3 {
   display: inline;
 }
 
-.social-media-buttons button {
-  background-color: #eee;
+aside p {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 560;
   color: #000;
-  border-radius: 50%;
-  margin-right: 10px;
-  padding: 7px;
-  padding-top: 2px;
 }
 
 .article-1 p {
   margin-top: 15px;
 }
+
 .img-inflation-section p {
   font-size: 0.9rem;
 }
@@ -178,6 +245,7 @@ a h3 {
   margin-left: 30vw;
   margin-right: 30vw;
 }
+
 .article-3 p {
   margin-top: 15px;
 }
@@ -188,6 +256,7 @@ a h3 {
   margin-left: 10vh;
   margin-right: 10vh;
 }
+
 .buttons-and-logos p {
   grid-area: text;
   color: #666;
@@ -195,6 +264,24 @@ a h3 {
   text-align: left;
   line-height: 18px;
   margin-bottom: 20px;
+}
+
+.article-2 p {
+  margin-top: 15px;
+}
+
+.most-popular p {
+  border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+  padding: 15px 0 15px 0;
+  font-size: 1.1875rem;
+  line-height: 1.375rem;
+  text-align: start;
+}
+
+.company-info p {
+  padding: 8px 10px 0 10px;
+  font-size: 10px;
+  color: #666;
 }
 
 .img-header-section p:nth-of-type(1) {
@@ -262,12 +349,14 @@ a h3 {
     "p5 p6 p7 p8";
   text-align: left;
 }
+
 .photo-text span {
   color: #999;
   display: block;
   font-size: 0.8rem;
   margin-bottom: 45px;
 }
+
 .img-inflation-section p span {
   font-weight: 400;
   color: #000;
@@ -280,10 +369,12 @@ a h3 {
   margin-bottom: 5px;
   font-style: normal;
 }
+
 .img-inflation-section p:nth-of-type(1) {
   grid-area: description;
   color: #666;
 }
+
 .article-3 img {
   width: 800px;
   height: 480px;
@@ -291,6 +382,16 @@ a h3 {
   object-fit: contain;
   margin-top: 30px;
   padding-left: 0;
+}
+
+aside .post img {
+  object-fit: contain;
+  width: 80px;
+  height: 80px;
+}
+
+.last img {
+  max-width: 100%;
 }
 
 .img-inflation-section img:nth-of-type(1) {
@@ -372,9 +473,7 @@ a h3 {
   margin-right: 15vw;
 }
 
-.article-2 p {
-  margin-top: 15px;
-}
+
 
 .article-2 .signUp-prompt {
   margin-top: 5px;
@@ -397,15 +496,7 @@ a h3 {
   font-weight: 700;
 }
 
-.article-2 .signUp-prompt button {
-  display: inline;
-  color: black;
-  grid-area: button;
-  background: white;
-  border: 1.5px solid black;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 
 #video-section {
   margin-top: 50px;
@@ -459,13 +550,7 @@ a h3 {
   color: #666;
 }
 
-.buttons-and-logos > button {
-  grid-area: comments;
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
-  height: 40px;
-  font-weight: 500;
-}
+
 
 .buttons-and-logos div {
   grid-area: SMbuttons;
@@ -492,23 +577,14 @@ aside {
   float: right;
 }
 
-aside p {
-  text-align: left;
-  margin-bottom: 10px;
-  font-weight: 560;
-  color: #000;
-}
+
 
 aside .post {
   display: flex;
   margin-top: 20px;
 }
 
-aside .post img {
-  object-fit: contain;
-  width: 80px;
-  height: 80px;
-}
+
 
 aside .post a {
   color: black;
@@ -521,7 +597,7 @@ aside .post a {
 .last {
   height: 100%;
   width: 90vw;
-  max-height: fit-content;
+  max-height: auto;
   display: grid;
   grid-template-columns: 5fr 2fr;
   grid-template-rows: 1fr 1fr;
@@ -529,9 +605,7 @@ aside .post a {
   grid-gap: 10px;
 }
 
-.last img {
-  max-width: 100%;
-}
+
 
 .last .morein {
   grid-area: 1 / 1 / 2 / 2;
@@ -555,7 +629,7 @@ aside .post a {
 .container {
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  height: auto;
 }
 
 .pmore {
@@ -595,13 +669,7 @@ aside .post a {
   max-width: 96%;
 }
 
-.most-popular p {
-  border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
-  padding: 15px 0 15px 0;
-  font-size: 1.1875rem;
-  line-height: 1.375rem;
-  text-align: start;
-}
+
 
 .top-line-for-mp {
   border-top: 1px black solid;
@@ -699,41 +767,7 @@ footer {
   padding-left: 5px;
 }
 
-.footer1 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
 
-.footer2 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer3 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer4 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer5 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer6 li {
-  padding: 5px 0 5px 0;
-  font-size: 11px;
-  padding-left: 9px;
-}
 
 .company-info {
   grid-area: info;
@@ -742,8 +776,4 @@ footer {
   border-top: 1px rgba(0, 0, 0, 0.1) solid;
 }
 
-.company-info p {
-  padding: 8px 10px 0 10px;
-  font-size: 10px;
-  color: #666;
-}
+
