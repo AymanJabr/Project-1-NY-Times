@@ -88,6 +88,21 @@ nav div #menu-button:hover + .menu-list {
   box-shadow: 3px 7px rgba(3, 3, 3, 0.8);
   z-index: 2;
 }
+.menu-list ul{
+  list-style-type: none;
+}
+.menu-list ul li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 15px;
+  font-weight: 600;
+
+}
+.menu-list ul hr{
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
 header {
   margin-top: 80px;
@@ -348,7 +363,7 @@ a h3 {
 #article-3 img {
   width: 800px;
   height: 480px;
-  margin-left: -40px;
+  margin-left: -100px;
   object-fit: contain;
   margin-top: 30px;
   padding-left: 0;
@@ -359,11 +374,12 @@ a h3 {
   font-style: normal;
 }
 .photo-text {
-  margin-left: -8px;
+  margin-left: -60px;
   color: #666;
   font-size: 0.95rem;
   line-height: 20px;
   margin-top: 0px !important;
+  margin-right: -70px !important;
 }
 .photo-text span {
   color: #999;
