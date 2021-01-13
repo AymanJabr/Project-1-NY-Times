@@ -10,6 +10,8 @@ CSS
 
 ## Live Demo
 
+[Try a lıve demo](https://nytimecloneforprojectone.netlify.app/)
+
 
 ## Authors 👤
 
