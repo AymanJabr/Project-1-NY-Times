@@ -437,6 +437,7 @@ aside {
   height: 3000px;
   right: 10vh;
   position: absolute;
+  float: right;
 }
 aside p {
   text-align: left;
@@ -460,7 +461,6 @@ aside .post a {
   align-self: center;
   margin-left: 10px;
 }
-
 .last {
   height: 100%;
   width: 90vw;
@@ -560,7 +560,7 @@ aside .post a {
 
 footer {
   height: 500px;
-  width: 90vw;
+  width: 88vw;
   margin:auto;
 }
 
@@ -573,6 +573,12 @@ footer {
   "footer1 footer2 footer3 footer4 footer5 footer6"
   "info info info info info info";
 }
+.footer h6 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
 .logo-nyt-bottom {
 display: flex;
 justify-content: start; }
@@ -583,6 +589,7 @@ justify-content: start; }
   text-align: center;
   text-decoration-line: none;
   font-size: 10px;
+  padding-top: 20px;
 }
 .footer1 { grid-area: footer1;
   list-style-type: none; 
@@ -606,19 +613,29 @@ justify-content: start; }
   padding-left: 5px;
 }
 .footer1 li {
-  padding-top: 5px;
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
 }
 .footer2 li {
-  padding-top: 5px;
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
 }
 .footer3 li {
-  padding-top: 5px;
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
 }
 .footer4 li {
-  padding-top: 5px;
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
 }
 .footer5 li {
-  padding-top: 5px;
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
 }
 .footer6 li {
   padding: 5px 0 5px 0;
