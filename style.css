@@ -688,13 +688,6 @@ footer {
     "info info info info info info";
 }
 
-.footer h6 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #333;
-  padding-bottom: 5px;
-  font-size: 14px;
-}
-
 .logo-nyt-bottom {
   display: flex;
   justify-content: start;
