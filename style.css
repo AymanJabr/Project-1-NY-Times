@@ -181,7 +181,7 @@ a h3 {
 }
 
 #img-inflation-section {
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-right: 15vw;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -446,12 +446,12 @@ aside .post a {
 }
 
 .last {
-  height: auto;
+  height: 100%;
   width: 90vw;
   max-height: fit-content;
   display: grid;
   grid-template-columns: 5fr 2fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin: 0 auto;
   grid-gap: 10px;
 }
@@ -460,21 +460,22 @@ aside .post a {
 }
 .last .morein {
   grid-area: 1 / 1 / 2 / 2;
-  display: grid;
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 30px 1fr 1fr;
   grid-gap: 10px;
   border-top: 1px black solid;
-}
+  }
 
 .last .morein .text-morein {
-  grid-area: 1 / 1 / 2 / 4;
-  text-decoration: none;
-  font-weight: 600;
-  color: rgb(45, 45, 45);
-  font-size: 18px;
-  padding: 10px 0 4px 0;
-}
+    grid-area: 1 / 1 / 2 / 4;
+    text-decoration: none;
+    color: #333;
+    text-align: start;
+    font-weight: 1000;
+    font-size: 18px;
+    padding: 10px 0 4px 0;
+  }
 
 .container {
   display: flex;
@@ -484,9 +485,8 @@ aside .post a {
 
 .pmore {
   text-align: end;
-  font-weight: 200;
-  color: gray;
-  font-size: 80%;
+  color:rgb(153, 153, 153);
+  font-size: 0.625rem;
 }
 
 .last .editor-pick {
@@ -499,82 +499,127 @@ aside .post a {
   display: flex;
 }
 .text-editor {
-  padding: 10px 0 5px 0;
+  padding: 18px 0 10px 0;
   text-decoration: none;
-  font-weight: 600;
-  color: rgb(45, 45, 45);
+  color: #333;
+  text-align: start;
+  font-weight: 1000;
   font-size: 18px;
 }
 
 .last .most-popular {
   display: flex;
   flex-direction: column;
-  padding-bottom: 25px;
+  padding-left: 10px;
+  grid-area: 1 / 2 / 3 / 3;
 }
 
 .last .editor-pick img {
   max-width: 96%;
 }
 
-.most-popular h4 {
+.most-popular p {
   border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
-  padding-bottom: 5px;
+  padding: 15px 0 15px 0;
+  font-size: 1.1875rem;
+  line-height: 1.375rem;
+  text-align: start;
 }
+.top-line-for-mp {
+  border-top: 1px black solid;
+}
+.link-no-underline {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  text-align: left;
+  padding: 5px 0 5px 0;
+  font-size: 1.125rem;
+}
+.date-small {
+  text-align: start;
+  color:rgb(153, 153, 153);
+  font-size: 0.75rem;
+}
+
 
 footer {
   height: 500px;
   width: 90vw;
-  margin: auto;
+  margin:auto;
 }
 
 .footer {
-  display: grid;
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px 1fr 50px;
   grid-template-areas:
-    "ny . . . . gt"
-    "footer1 footer2 footer3 footer4 footer5 footer6"
-    "info info info info info info";
+  "ny . . . . gt"
+  "footer1 footer2 footer3 footer4 footer5 footer6"
+  "info info info info info info";
+}
+.logo-nyt-bottom {
+display: flex;
+justify-content: start; }
+
+.nyt { grid-area: ny; 
+}
+.gthp { grid-area: gt; 
+  text-align: center;
+  text-decoration-line: none;
+  font-size: 10px;
+}
+.footer1 { grid-area: footer1;
+  list-style-type: none; 
+  text-align: left; }
+.footer2 { grid-area: footer2; 
+  list-style-type: none; 
+  text-align: left; }
+.footer3 { grid-area: footer3; 
+  list-style-type: none; 
+  text-align: left; }
+.footer4 { grid-area: footer4; 
+  list-style-type: none; 
+  text-align: left; }
+.footer5 { grid-area: footer5; 
+  list-style-type: none; 
+  text-align: left; }
+.footer6 { grid-area: footer6; 
+  list-style-type: none;
+  text-align: left;
+  border-left: 1px rgba(0, 0, 0, 0.1) solid;
+  padding-left: 5px;
+}
+.footer1 li {
+  padding-top: 5px;
+}
+.footer2 li {
+  padding-top: 5px;
+}
+.footer3 li {
+  padding-top: 5px;
+}
+.footer4 li {
+  padding-top: 5px;
+}
+.footer5 li {
+  padding-top: 5px;
+}
+.footer6 li {
+  padding: 5px 0 5px 0;
+  font-size: 11px;
+  padding-left: 9px;
 }
 
-.nyt {
-  grid-area: ny;
-  text-align: center;
-}
-.gthp {
-  grid-area: gt;
-  text-align: center;
-}
-.footer1 {
-  grid-area: footer1;
-  list-style-type: none;
-}
-.footer2 {
-  grid-area: footer2;
-  list-style-type: none;
-}
-.footer3 {
-  grid-area: footer3;
-  list-style-type: none;
-}
-.footer4 {
-  grid-area: footer4;
-  list-style-type: none;
-}
-.footer5 {
-  grid-area: footer5;
-  list-style-type: none;
-}
-.footer6 {
-  grid-area: footer6;
-  list-style-type: none;
-}
+
+
 .company-info {
   grid-area: info;
   display: flex;
   padding-left: 50px;
+  border-top: 1px rgba(0, 0, 0, 0.1) solid;
 }
 .company-info p {
-  padding: 0 10px 0 10px;
-  font-size: 12px;
+  padding: 8px 10px 0 10px;
+  font-size: 10px;
+  color: #666666;
 }
