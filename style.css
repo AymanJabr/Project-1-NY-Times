@@ -130,6 +130,12 @@ nav div form {
   z-index: 2;
 }
 
+.footer-list {
+  padding: 4px 0 4px 0;
+  font-size: 15px;
+  font-weight: 540;
+}
+
 nav div .menu-list {
   display: none;
 }
@@ -140,36 +146,6 @@ nav div .menu-button:hover + .menu-list {
 
 .menu-list ul {
   list-style-type: none;
-}
-
-.footer1 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer2 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer3 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer4 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
-}
-
-.footer5 li {
-  padding: 4px 0 4px 0;
-  font-size: 15px;
-  font-weight: 540;
 }
 
 .footer6 li {
@@ -257,6 +233,22 @@ aside p {
   height: 85vh;
   margin-left: 10vh;
   margin-right: 10vh;
+}
+
+.footer > ul > li > b {
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.special-footer- .img-header-section p a {
+  color: #333;
+}
+
+.article-2 hr {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 20px;
 }
 
 .buttons-and-logos p {
@@ -705,40 +697,38 @@ footer {
   padding-top: 20px;
 }
 
-.footer1 {
-  grid-area: footer1;
+.footer1,
+.footer2,
+.footer3,
+.footer4,
+.footer5,
+.footer6 {
   list-style-type: none;
   text-align: left;
+}
+
+.footer1 {
+  grid-area: footer1;
 }
 
 .footer2 {
   grid-area: footer2;
-  list-style-type: none;
-  text-align: left;
 }
 
 .footer3 {
   grid-area: footer3;
-  list-style-type: none;
-  text-align: left;
 }
 
 .footer4 {
   grid-area: footer4;
-  list-style-type: none;
-  text-align: left;
 }
 
 .footer5 {
   grid-area: footer5;
-  list-style-type: none;
-  text-align: left;
 }
 
 .footer6 {
   grid-area: footer6;
-  list-style-type: none;
-  text-align: left;
   border-left: 1px rgba(0, 0, 0, 0.1) solid;
   padding-left: 5px;
 }
@@ -750,6 +740,14 @@ footer {
 .company-info {
   grid-area: info;
   display: flex;
-  padding-left: 50px;
+  justify-content: space-evenly;
   border-top: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.special-footer-6 {
+  font-size: larger;
+  font-weight: 700;
+}
+.even-more-special {
+  padding-bottom: 10px;
 }
