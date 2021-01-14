@@ -80,6 +80,13 @@ nav div form {
   font-weight: 500;
 }
 
+aside p {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 560;
+  color: #000;
+}
+
 .right-nav {
   display: flex;
 }
@@ -92,7 +99,7 @@ nav div form {
 
 .right-nav > p a {
   text-decoration: none;
-  background-color:rgb(50, 104, 145);
+  background-color: rgb(50, 104, 145);
   padding: 4.2px;
   color: white;
 }
@@ -212,13 +219,6 @@ header {
 
 a h3 {
   display: inline;
-}
-
-aside p {
-  text-align: left;
-  margin-bottom: 10px;
-  font-weight: 560;
-  color: #000;
 }
 
 .article-1 p {
