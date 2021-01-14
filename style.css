@@ -167,6 +167,12 @@ header hr {
   margin-right: 30vw;
 }
 
+.article-2 hr {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 20px;
+}
+
 .menu-list ul hr {
   margin-left: 15px;
   margin-right: 15px;
@@ -241,14 +247,21 @@ aside p {
   padding-bottom: 5px;
 }
 
-.special-footer- .img-header-section p a {
-  color: #333;
+.buttons-and-logos p a {
+  grid-area: text;
+  color: #666;
 }
 
-.article-2 hr {
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-top: 20px;
+aside .post a {
+  color: black;
+  font-weight: 100;
+  text-align: left;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.special-footer- .img-header-section p a {
+  color: #333;
 }
 
 .buttons-and-logos p {
@@ -535,11 +548,6 @@ aside .post img {
   margin-bottom: 65px;
 }
 
-.buttons-and-logos p a {
-  grid-area: text;
-  color: #666;
-}
-
 .buttons-and-logos div {
   grid-area: SMbuttons;
   margin-right: 0;
@@ -564,14 +572,6 @@ aside {
 aside .post {
   display: flex;
   margin-top: 20px;
-}
-
-aside .post a {
-  color: black;
-  font-weight: 100;
-  text-align: left;
-  align-self: center;
-  margin-left: 10px;
 }
 
 .last {
@@ -748,6 +748,7 @@ footer {
   font-size: larger;
   font-weight: 700;
 }
+
 .even-more-special {
   padding-bottom: 10px;
 }
