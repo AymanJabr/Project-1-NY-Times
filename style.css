@@ -80,6 +80,23 @@ nav div form {
   font-weight: 500;
 }
 
+.right-nav {
+  display: flex;
+}
+
+.right-nav > * { margin-right: 10px; }
+
+.right-nav > p {
+  margin-top: 4px;
+}
+
+.right-nav > p a {
+  text-decoration: none;
+  background-color:rgb(50, 104, 145);
+  padding: 4.2px;
+  color: white;
+}
+
 .buttons-and-logos div button {
   padding: 4px;
 }
