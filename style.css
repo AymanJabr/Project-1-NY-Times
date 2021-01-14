@@ -22,7 +22,7 @@ h6 {
 
 p {
   color: #333;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: SofiaFont,nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 button {
@@ -191,6 +191,10 @@ header {
   font-weight: 500;
   font-style: italic;
   text-align: left;
+}
+
+.comments-from-feelings{
+  font-family: 'SofiaFont' !important;
 }
 
 a h3 {
@@ -666,6 +670,11 @@ aside .post {
   text-align: start;
   color: rgb(153, 153, 153);
   font-size: 0.75rem;
+}
+
+@font-face {
+  font-family: SofiaFont;
+  src: url(./Assets/Sofia-Regular.ttf);
 }
 
 .emoji-images {
