@@ -664,6 +664,44 @@ aside .post {
   font-size: 0.75rem;
 }
 
+.emoji-images{
+  height: 50px;
+   width: 50px;
+}
+
+.comments-form{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  margin-bottom: 100px;
+}
+
+.submit-form-button{
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(50, 104, 145);
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+}
+
+.comments-from-feelings>img{
+  margin-top: 15px;
+}
+
+.comments-form>div{
+  margin-top: 20px;
+}
+
+.comments-form>input{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
 footer {
   height: 500px;
   width: 88vw;

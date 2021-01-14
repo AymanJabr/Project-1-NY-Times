@@ -463,6 +463,39 @@
             </button>
         </div>
     </div>
+
+
+    <section class="comments-form-section">
+        <form class="comments-form" action="#" method="post">
+            <input maxlength="20" required type="text" name="user_name" id="userName" placeholder="Username">
+            <input maxlength="20" required type="email" id="userEmail"  name="user_email" placeholder="Email...">
+            <textarea maxlength="250" required id="userComments" placeholder="Type your comment here…" name="user_comments"></textarea>
+
+            <div class="comments-from-feelings">
+                <p>What is your overall opinion about this article?</p>
+                <input type="radio" name="feelings" value="happy" checked> <img class="emoji-images" src="./Assets/happy.svg"
+                    alt="Happy with the article">
+                <input type="radio" name="feelings" value="neutral"> <img class="emoji-images" src="./Assets/neutral.svg">
+                <input type="radio" name="feelings" value="sad"> <img class="emoji-images" src="./Assets/sad.svg">
+            </div>
+
+            <div>
+                
+                <input type="checkbox" id="subscribe-me" name="subscribe-me" value="True">
+                <label for="subscribe-me">I want to subscribe to the newsletter</label>
+            </div>
+            
+
+            <input class="submit-form-button" type="submit" value="Send">
+            
+
+
+        </form>
+
+    </section>
+
+
+
     <div class="last">
         <div class="morein">
             <a class="text-morein" href="#">More in Space and Astronomy</a>
