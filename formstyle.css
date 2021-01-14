@@ -1,11 +1,11 @@
 @font-face {
-  src: url('Assets/IMFellEnglishSC-Regular.ttf.woff2') format('woff2'),
-  url('Assets/IMFellEnglishSC-Regular.ttf.woff') format('woff');
+  font-family: ImFellEnglish;
+  src: url(./Assets/IMFellEnglishSC-Regular.ttf);
 }
 
 body {
   background-image: url(https://crownlibrary.files.wordpress.com/2013/09/scan.jpg);
-  font-family: 'IMFellEnglishSC', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'ImFellEnglish', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 form {
