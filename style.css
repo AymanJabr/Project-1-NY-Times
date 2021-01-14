@@ -197,6 +197,10 @@ a h3 {
   display: inline;
 }
 
+.comments-from-feelings > img {
+  margin-top: 15px;
+}
+
 aside p {
   text-align: left;
   margin-bottom: 10px;
@@ -664,12 +668,12 @@ aside .post {
   font-size: 0.75rem;
 }
 
-.emoji-images{
+.emoji-images {
   height: 50px;
-   width: 50px;
+  width: 50px;
 }
 
-.comments-form{
+.comments-form {
   display: flex;
   flex-direction: column;
   margin-right: 25vw;
@@ -677,7 +681,7 @@ aside .post {
   margin-bottom: 100px;
 }
 
-.submit-form-button{
+.submit-form-button {
   margin-right: 25%;
   margin-left: 25%;
   padding-top: 8px;
@@ -688,19 +692,14 @@ aside .post {
   border: none;
 }
 
-.comments-from-feelings>img{
-  margin-top: 15px;
-}
-
-.comments-form>div{
+.comments-form > div {
   margin-top: 20px;
 }
 
-.comments-form>input{
+.comments-form > input {
   margin-top: 10px;
   margin-bottom: 5px;
 }
-
 
 footer {
   height: 500px;
