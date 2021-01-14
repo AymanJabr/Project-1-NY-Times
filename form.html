@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Review</title>
+</head>
+<body>
+    <form>
+    <section class="entrance">
+        <h1>How Was Your Experience With Our Page?</h1>
+        <p>Your opinions are important for us..</p>
+    </section>
+    <div class="container-of-fs">
+    <div class="first-section">
+        <label for="username">User Name:</label>
+        <input id="username" type="text" name="username" placeholder="Your User Name" required maxlength="20">
+    </div>
+<div class="first-section">
+    <label for="email">Email Address:</label>
+    <input id="email" type="text" name="email" placeholder="Your email Address" required  maxlength="20">
+</div>
+</div>
+<div class="comment-area">
+    <textarea rows="7" cols="55" id="comment" name="comment" required maxlength="250">Type your comment here...</textarea>
+</div>
+<div class="radio-buttons">
+    <label for="opinion">What is your overall opinion about this article?</label>
+    <input type="radio" name="opinion" value="positive"> positive
+    <input type="radio" name="opinion" value="neutral"> neutral
+    <input type="radio" name="opinion" value="negative"> negative
+</div>
+<div class="checkbox-subscribe">
+<input class="checkbox" type="checkbox" name="subscription" value="" checked>I want to subscribe to the newsletter
+</div>
+<button class="send-button" name="submit"> Send </button>
+
+
+    </form>
+</body>
+</html>

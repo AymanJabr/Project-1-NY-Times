@@ -744,11 +744,13 @@ footer {
   border-top: 1px rgba(0, 0, 0, 0.1) solid;
 }
 
-.special-footer-6 {
+.text-footer-6 {
   font-size: larger;
   font-weight: 700;
+  padding: 2px 0 6px 0;
+  color: #000;
 }
 
-.even-more-special {
-  padding-bottom: 10px;
+.logos-for-footer {
+  padding-top: 10px;
 }
